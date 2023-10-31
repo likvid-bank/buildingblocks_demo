@@ -18,8 +18,3 @@ variable "subscription_id" {
   description = "You can use 'Platform Tenant ID' as the source for this input variable"
 }
 
-variable "public_key" {
-  description = "You need key pair for the authentication (You can generate one with `ssh-keygen -t rsa -b 2048`)"
-  type = string
-  sensitive = true
-}
