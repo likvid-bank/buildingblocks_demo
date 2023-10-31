@@ -7,7 +7,7 @@ locals {
     owners      = local.owners
     environment = local.environment
   }
-  bastion_service_subnet_name      = "bastion_subnet"
+  bastion_service_subnet_name      = "AzureBastionSubnet"
   bastion_service_address_prefixes = ["10.100.2.0/27"]
 }
 
