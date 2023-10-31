@@ -1,6 +1,6 @@
 # Azure Resource Group Name 
 variable "resource_group_name" {
-  description = "Resource Group Name"
+  description = "Resource Group Name, This is dependent to the output of standard-vnet building block."
   type        = string
   default     = "rg-default"
 }
@@ -8,7 +8,7 @@ variable "resource_group_name" {
 # Virtual Network, Subnets and Subnet NSG's
 ## Virtual Network
 variable "vnet_name" {
-  description = "Virtual Network name"
+  description = "Virtual Network name. This is dependent to the output of standard-vnet building block."
   type        = string
   default     = "vnet-default"
 }
